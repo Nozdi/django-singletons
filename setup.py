@@ -3,11 +3,10 @@
 from setuptools import setup, find_packages
 
 setup(name='django-singletons',
-    version='0.1.6',
-    description='Reusable singleton models for Django',
-    author='Thomas Ashelford',
-    author_email='thomas@ether.com.au',
-    url='http://github.com/tttallis/django-singletons',
+    version='0.2.0',
+    description='Reusable singleton models for Django 1.5',
+    author='Nozdi',
+    url='http://github.com/Nozdi/django-singletons',
     packages=find_packages(),
     include_package_data=True,
     zip_safe=False,
