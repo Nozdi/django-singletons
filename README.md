@@ -4,7 +4,14 @@ Django 1.5 python 2.7 compatible.
 Installation
 ============
 
-<pre>pip install django-singletons</pre>
+<pre>pip install -e git+git@github.com:Nozdi/django-singletons.git#egg=django-singletons</pre>
+
+or
+
+```
+git clone git@github.com:Nozdi/django-singletons.git
+./setup.py install
+```
 
 To get the custom admin templates working, you need to add "singleton_models" to your INSTALLED_APPS
 
